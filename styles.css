@@ -16,22 +16,8 @@ html,body {
     line-height: 1.875rem;
     letter-spacing: -0.008rem;
     text-align: center;
-    background-color: #49BCF1;
-}
-
-/*
----------------
-TYPOGRAPHY
----------------
-*/
-
-.we-are-creatives {
-    text-transform: uppercase;
-    font-family: 'Fraunces', serif;
-    font-weight: 900;
-    font-size: 2.5rem;
-    letter-spacing: 0.391rem;
-    line-height: 3.063rem;
+    background-color: #f2f2f2;
+    color: #808397;
 }
 
 /*
@@ -53,26 +39,82 @@ MAIN LAYOUT
     align-items: center;
 }
 
-.creative-orange-section {
-    color: #fff;
-    height: 33.625rem;
-    width: 23.438rem;
-    background-image: url(images/mobile/image-header.jpg);
-    background-position: center 75%;
-}
-
 .sunnyside-header {
     margin: 2rem 1.5rem 0 1.5rem;
 }
 
-.hamburger {
-    position: relative;
-    float: right;
+.creative-orange-section,
+.egg-transform-section {
+    width: 23.438rem;
 }
 
+.creative-orange-section {
+    color: #fff;
+    height: 33.625rem;
+    background-image: url(images/mobile/image-header.jpg);
+    background-position: center 75%;
+}
+
+.egg-transform-section {
+    display: flex;
+    flex-direction: column;
+    height: 46.813rem;
+    width: 23.438rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.egg {
+    height: 19.5rem;
+}
+
+.brand-transformation {
+    display: flex;
+    height: 27.313rem;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 1.5rem;
+}
+
+/*
+---------------
+TYPOGRAPHY
+---------------
+*/
+
 .we-are-creatives {
+    text-transform: uppercase;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 2.5rem;
+    letter-spacing: 0.391rem;
+    line-height: 3.063rem;
     text-align: center;
     margin-top: 9rem
+}
+
+.section-title {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 2.466rem;
+    letter-spacing: -0.014rem;
+    color: #24303E;
+}
+
+.description {
+    padding: 1.5rem 0rem 2rem 0;
+}
+
+/*
+---------------
+LINKS/BUTTONS
+---------------
+*/
+
+.learn-more-link {
+    
 }
 
 /*
@@ -86,6 +128,10 @@ ICONS/LOGOS
     float: left;
 }
 
+.hamburger {
+    position: relative;
+    float: right;
+}
 
 .down-arrow {
     width:  1.875rem;
