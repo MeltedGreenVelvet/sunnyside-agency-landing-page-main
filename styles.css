@@ -65,28 +65,30 @@ MAIN LAYOUT
     margin: 2rem 1.5rem 0 1.5rem;
 }
 
-.sunnyside-logo {
-    position: relative;
-    float: left;
-}
-
 .hamburger {
     position: relative;
     float: right;
 }
 
 .we-are-creatives {
-    margin-top: 9rem;
-
+    text-align: center;
+    margin-top: 9rem
 }
 
 /*
 ---------------
-ICONS
+ICONS/LOGOS
 ---------------
 */
+
+.sunnyside-logo {
+    position: relative;
+    float: left;
+}
+
 
 .down-arrow {
     width:  1.875rem;
     height: 6.718rem;
+    margin: 3.25rem 10.781rem 8.533rem 10.781rem;
 }
