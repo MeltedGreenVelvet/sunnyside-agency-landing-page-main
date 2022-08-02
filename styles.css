@@ -1,3 +1,9 @@
+/*
+---------------
+DOC DEFAULTS
+---------------
+*/
+
 * {
     margin: 0;
     padding: 0;
@@ -10,11 +16,77 @@ html,body {
     line-height: 1.875rem;
     letter-spacing: -0.008rem;
     text-align: center;
+    background-color: #49BCF1;
 }
 
-header {
+/*
+---------------
+TYPOGRAPHY
+---------------
+*/
+
+.we-are-creatives {
+    text-transform: uppercase;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 2.5rem;
+    letter-spacing: 0.391rem;
+    line-height: 3.063rem;
+}
+
+/*
+---------------
+MAIN LAYOUT
+---------------
+*/
+
+.container {
     display: flex;
-    flex-direction: row;
-    position: absolute;
+    justify-content: center;
+    align-items: center;
 }
 
+.agency-website {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.creative-orange-section {
+    color: #fff;
+    height: 33.625rem;
+    width: 23.438rem;
+    background-image: url(images/mobile/image-header.jpg);
+    background-position: center 75%;
+}
+
+.sunnyside-header {
+    margin: 2rem 1.5rem 0 1.5rem;
+}
+
+.sunnyside-logo {
+    position: relative;
+    float: left;
+}
+
+.hamburger {
+    position: relative;
+    float: right;
+}
+
+.we-are-creatives {
+    margin-top: 9rem;
+
+}
+
+/*
+---------------
+ICONS
+---------------
+*/
+
+.down-arrow {
+    width:  1.875rem;
+    height: 6.718rem;
+}
