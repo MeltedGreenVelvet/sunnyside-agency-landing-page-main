@@ -37,15 +37,11 @@ MAIN LAYOUT
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 23.438rem;
 }
 
 .sunnyside-header {
     margin: 2rem 1.5rem 0 1.5rem;
-}
-
-.creative-orange-section,
-.egg-transform-section {
-    width: 23.438rem;
 }
 
 .creative-orange-section {
@@ -55,15 +51,20 @@ MAIN LAYOUT
     background-position: center 75%;
 }
 
-.egg-transform-section {
+.egg-transform-section,
+.pink-cup-stand-out-section {
+    height: 46.813rem;
     display: flex;
     flex-direction: column;
-    height: 46.813rem;
-    width: 23.438rem;
     justify-content: space-between;
     align-items: center;
 }
 
+.graphic-design-section {
+
+}
+
+.pink-cup,
 .egg {
     height: 19.5rem;
 }
@@ -114,8 +115,51 @@ LINKS/BUTTONS
 */
 
 .learn-more-link {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
 }
+
+.link-text,
+.line-underline {
+    text-transform: uppercase;
+    font-family: 'Fraunces', serif;
+    letter-spacing: 1px;
+    line-height: 1.563rem;
+    font-size: 0.938rem;
+}
+
+.link-text {
+    color: #24303E;
+    z-index: 2;
+}
+
+.link-underline {
+    color: rgb(250, 212, 0, 0);
+    line-height: 10px;
+    height: 10px;
+    border-radius: 1.75rem;
+    width: 8.563rem;
+    position: relative;
+    z-index: 1;
+    top: 27px;
+    transition: 0.4s;
+}
+
+.underline-yellow {
+    background-color: rgb(250, 212, 0, .25);
+}
+
+.underline-pink {
+    background-color: rgb(254, 119, 102, .25);
+}
+
+.underline-yellow:hover {
+    background-color: rgb(250, 212, 0, 1);
+}
+
 
 /*
 ---------------
