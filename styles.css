@@ -61,7 +61,10 @@ MAIN LAYOUT
 }
 
 .graphic-design-section {
-
+    height: 37.5rem;
+    background-image: url(images/mobile/image-graphic-design.jpg);
+    background-position: center 75%;
+    background-size: contain;
 }
 
 .pink-cup,
@@ -69,7 +72,8 @@ MAIN LAYOUT
     height: 19.5rem;
 }
 
-.brand-transformation {
+.brand-transformation,
+.stand-out {
     display: flex;
     height: 27.313rem;
     flex-direction: column;
@@ -106,6 +110,25 @@ TYPOGRAPHY
 
 .description {
     padding: 1.5rem 0rem 2rem 0;
+}
+
+.graphic-design-description,
+.graphic-design-title {
+    color: #24554A;
+}
+
+.graphic-design-description {
+    letter-spacing: -0.007rem;
+    line-height: 1.688rem;
+    font-size: 1rem;
+    padding: 1.688rem 1.5rem 3.688rem 1.5rem;
+}
+
+.graphic-design-title {
+    padding-top: 24.875rem;
+    font-size: 1.75rem;
+    letter-spacing: -0.013rem;
+    line-height: 2.158rem;
 }
 
 /*
