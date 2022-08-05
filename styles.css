@@ -4,6 +4,7 @@ DOC DEFAULTS
 ---------------
 */
 
+
 * {
     margin: 0;
     padding: 0;
@@ -20,11 +21,13 @@ html,body {
     color: #808397;
 }
 
+
 /*
 ---------------
 MAIN LAYOUT
 ---------------
 */
+
 
 .container {
     display: flex;
@@ -75,8 +78,6 @@ MAIN LAYOUT
     background-size: contain;
 }
 
-
-
 .pink-cup,
 .egg {
     height: 19.5rem;
@@ -92,11 +93,27 @@ MAIN LAYOUT
     padding: 4rem 1.5rem;
 }
 
+.testimonials-section{
+    height: 78.625rem;
+    padding: 4rem 1.5rem 5.375rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.client {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 /*
 ---------------
 TYPOGRAPHY
 ---------------
 */
+
 
 .we-are-creatives {
     text-transform: uppercase;
@@ -151,11 +168,49 @@ TYPOGRAPHY
     line-height: 2.158rem;
 }
 
+.client-testimonials {
+    color: #A7AAAD;
+    text-transform: uppercase;
+    font-family: 'Fraunces', serif;
+    letter-spacing: 0.25rem;
+    line-height: 1.233rem;
+    font-size: 1rem;
+    font-weight: 900;
+    padding: 0.563rem 0;
+}
+
+.testimonial-description {
+    margin: 2rem 0;
+    order: 2;
+    font-size: 1.125rem;
+    line-height: 2rem;
+}
+
+.client-name {
+    font-family: 'Fraunces', serif;
+    color: #24303E;
+    line-height: 1.375rem;
+    font-size: 1.125rem;
+    letter-spacing: -0.008rem;
+    font-weight: 900;
+    order: 3;
+}
+
+.job-title {
+    line-height: 1.563rem;
+    letter-spacing: -0.006rem;
+    font-size: 0.875rem;
+    order: 4;
+    color: #A7AAAD;
+    padding-top: 0.563rem;
+}
+
 /*
 ---------------
 LINKS/BUTTONS
 ---------------
 */
+
 
 .learn-more-link {
     display: flex;
@@ -206,9 +261,10 @@ LINKS/BUTTONS
 
 /*
 ---------------
-ICONS/LOGOS
+ICONS/LOGOS/IMGS
 ---------------
 */
+
 
 .sunnyside-logo {
     position: relative;
@@ -224,4 +280,11 @@ ICONS/LOGOS
     width:  1.875rem;
     height: 6.718rem;
     margin: 3.25rem 10.781rem 8.533rem 10.781rem;
+}
+
+.client-photo {
+    border-radius: 50%;
+    width: 4.5rem;
+    height: 4.5rem;
+    order: 1;
 }
