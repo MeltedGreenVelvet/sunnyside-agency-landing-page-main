@@ -107,6 +107,16 @@ MAIN LAYOUT
     align-items: center;
 }
 
+.image-grid-container {
+    display: inline-grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-images {
+    height: 11.75rem;
+    width: 11.75rem;
+}
+
 
 /*
 ---------------
@@ -288,3 +298,4 @@ ICONS/LOGOS/IMGS
     height: 4.5rem;
     order: 1;
 }
+
