@@ -92,7 +92,7 @@ MOBILE MAIN LAYOUT
     padding: 4rem 1.5rem;
 }
 
-.testimonials-section{
+.testimonials-section {
     height: 78.625rem;
     padding: 4rem 1.5rem 5.375rem 1.5rem;
     display: flex;
@@ -372,6 +372,7 @@ MEDIA QUERIES
     .pink-cup-stand-out-section {
         flex-direction: row;
         width: 100%;
+
     }
     
     .brand-transformation {
@@ -410,6 +411,17 @@ MEDIA QUERIES
         width: 50%;
     }
 
+    .testimonials-section {
+        height: 48.563rem;
+        padding: 10rem 10.313rem 10rem 10.313rem;
+    }
+
+    .clients-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 28.563rem;
+    }
 
     /*
     ---------------------
@@ -428,6 +440,17 @@ MEDIA QUERIES
     .photography-description {
         margin: 0 1.5rem 0 1.5rem;
         max-width: 21.188rem;
+    }
+
+    .client-testimonials {
+        padding: 0;
+        font-size: 1.25rem;
+        line-height: 1.563rem;
+        letter-spacing: 0.313rem;
+    }  
+
+    .testimonial-description {
+        margin: 4.313rem 1.875rem;
     }
 
     /*
