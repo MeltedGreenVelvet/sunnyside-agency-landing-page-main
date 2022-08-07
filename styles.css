@@ -1,7 +1,7 @@
 /*
----------------
+---------------------
 DOC DEFAULTS
----------------
+---------------------
 */
 
 
@@ -23,9 +23,9 @@ html,body {
 
 
 /*
----------------
-MAIN LAYOUT
----------------
+---------------------
+MOBILE MAIN LAYOUT
+---------------------
 */
 
 
@@ -63,7 +63,6 @@ MAIN LAYOUT
     align-items: center;
 }
 
-.graphic-design-section,
 .photography-section {
     height: 37.5rem;
     background-image: url(images/mobile/image-photography.jpg);
@@ -144,9 +143,9 @@ footer {
 
 
 /*
----------------
-TYPOGRAPHY
----------------
+---------------------
+MOBILE TYPOGRAPHY
+---------------------
 */
 
 
@@ -241,9 +240,9 @@ TYPOGRAPHY
 }
 
 /*
----------------
-LINKS/BUTTONS
----------------
+---------------------
+MOBILE LINKS/BUTTONS
+---------------------
 */
 
 
@@ -295,9 +294,9 @@ LINKS/BUTTONS
 
 
 /*
----------------
-ICONS/LOGOS/IMGS
----------------
+---------------------
+MOBILE ICONS/LOGOS/IMGS
+---------------------
 */
 
 
@@ -349,9 +348,9 @@ ICONS/LOGOS/IMGS
 }
 
 /*
----------------
+---------------------
 MEDIA QUERIES
----------------
+---------------------
 */
 
 @media (min-width: 23.5rem) {
@@ -369,14 +368,86 @@ MEDIA QUERIES
         background-size: cover;
     }
 
-    .egg-transform-section{
+    .egg-transform-section,
+    .pink-cup-stand-out-section {
         flex-direction: row;
+        width: 100%;
     }
+    
+    .brand-transformation {
+        width: 50%;
+        order: 1;
+    }
+
+    .stand-out {
+        order: 2;
+    }
+
+    .cherry-and-orange-sections{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .graphic-design-section,
+    .photography-section {
+        display: flex;
+        flex-direction: column;
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .graphic-design-section {
+        background-image: url(images/desktop/image-graphic-design.jpg);
+        width: 50%;
+    }
+
+    .photography-section {
+        background-image: url(images/desktop/image-photography.jpg);
+        width: 50%;
+    }
+
+
+    /*
+    ---------------------
+    DESKTOP TYPOGRAPHY
+    ---------------------
+    */
 
     .we-are-creatives {
         font-size: 3.5rem;
         letter-spacing: 0.391rem;
         line-height: 4.313rem;
         margin-top: 9rem
+    }
+
+    .graphic-design-description,
+    .photography-description {
+        margin: 0 1.5rem 0 1.5rem;
+        max-width: 21.188rem;
+    }
+
+    /*
+    ---------------------
+    DESKTOP ICONS/LOGOS/IMGS
+    ---------------------
+    */
+
+    .egg,
+    .pink-cup {
+        width: 50%;
+        object-fit: cover;
+        height: 100%;
+    }
+
+    .egg {
+        order: 2;
+    }
+
+    .pink-cup {
+        order: 1;
     }
 }
