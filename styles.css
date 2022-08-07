@@ -423,6 +423,36 @@ MEDIA QUERIES
         height: 28.563rem;
     }
 
+    .image-grid-container {
+        display: flex; 
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .grid-desktop-milk,
+    .grid-desktop-orange,
+    .grid-desktop-cone,
+    .grid-desktop-sugarcubes {
+        width: 25%;
+        height: auto;
+    }
+
+    .grid-desktop-milk {
+        content: url("images/desktop/image-gallery-milkbottles.jpg");
+    }
+
+    .grid-desktop-orange {
+        content: url("images/desktop/image-gallery-orange.jpg");
+    }
+
+    .grid-desktop-cone {
+        content: url("images/desktop/image-gallery-cone.jpg");
+    }
+
+    .grid-desktop-sugarcubes {
+        content: url("images/desktop/image-gallery-sugarcubes.jpg");
+    }
+
     /*
     ---------------------
     DESKTOP TYPOGRAPHY
