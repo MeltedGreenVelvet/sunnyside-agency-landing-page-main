@@ -347,3 +347,36 @@ ICONS/LOGOS/IMGS
     align-items: space-between;
     padding-bottom: 5rem;
 }
+
+/*
+---------------
+MEDIA QUERIES
+---------------
+*/
+
+@media (min-width: 23.5rem) {
+
+    .agency-website {
+        width: 100%;
+    }
+
+    .creative-orange-section {
+        color: #fff;
+        height: 50rem;
+        width: 100%;
+        background-image: url(images/desktop/image-header.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .egg-transform-section{
+        flex-direction: row;
+    }
+
+    .we-are-creatives {
+        font-size: 3.5rem;
+        letter-spacing: 0.391rem;
+        line-height: 4.313rem;
+        margin-top: 9rem
+    }
+}
