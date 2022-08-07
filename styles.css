@@ -132,13 +132,6 @@ footer {
     align-items: center;
 }
 
-.footer-logo {
-    margin-top: 4rem;
-    background-color: #2C7566;
-    mask: url("images/logo.svg");
-    mask-size: cover;
-}
-
 .footer-nav-container {
     padding: 2.5rem 2.438rem 5.5rem 2.438rem;
 }
@@ -147,15 +140,6 @@ footer {
     display: flex;
     flex-direction: row;
     list-style: none;
-}
-
-.nav-link-center {
-    padding: 0 3.563rem;
-}
-
-.nav-link {
-    text-decoration: none;
-    color: #458D7E;
 }
 
 
@@ -340,3 +324,26 @@ ICONS/LOGOS/IMGS
     order: 1;
 }
 
+.footer-logo {
+    margin-top: 4rem;
+    filter: brightness(0) saturate(100%) invert(37%) sepia(7%) saturate(5381%) hue-rotate(119deg) brightness(90%) contrast(66%);
+    width: 10.625rem;
+    height: 2.063rem;
+}
+
+.nav-link-center {
+    padding: 0 3.563rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #458D7E;
+}
+
+.social-media-icons {
+    width: 10.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+    padding-bottom: 5rem;
+}
