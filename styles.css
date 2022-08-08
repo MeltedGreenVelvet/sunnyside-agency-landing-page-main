@@ -372,22 +372,30 @@ MEDIA QUERIES
     .pink-cup-stand-out-section {
         flex-direction: row;
         width: 100%;
-
+        align-items: center;
     }
-    
+
     .brand-transformation {
         width: 50%;
         order: 1;
+        padding: 9.875rem 6.875rem 9.875rem 10.313rem;
     }
 
     .stand-out {
         order: 2;
+        padding: 9.875rem 10.313rem 9.875rem 6.875rem;
+    }
+
+    .brand-transformation,
+    .stand-out {
+        display: block;
     }
 
     .cherry-and-orange-sections{
         display: flex;
         flex-direction: row;
         width: 100%;
+        height: 45rem;
     }
 
     .graphic-design-section,
@@ -399,6 +407,7 @@ MEDIA QUERIES
         align-items: center;
         justify-content: center;
         padding: 0;
+        height: 45rem;
     }
 
     .graphic-design-section {
@@ -466,6 +475,20 @@ MEDIA QUERIES
         margin-top: 9rem
     }
 
+    .section-title,
+    .description {
+        text-align: left;
+    }
+
+    .section-title {
+        font-size: 2.5rem;
+    }
+
+    .description {
+        font-size: 1.125rem;
+        padding: 2rem 0 2.5rem 0;
+    }
+
     .graphic-design-description,
     .photography-description {
         margin: 0 1.5rem 0 1.5rem;
@@ -498,9 +521,22 @@ MEDIA QUERIES
 
     .egg {
         order: 2;
+        content: url(images/desktop/image-transform.jpg);
     }
 
     .pink-cup {
         order: 1;
+        content: url(images/desktop/image-stand-out.jpg);
+    }
+
+    /*
+    ---------------------
+    DESKTOP LINKS/BUTTONS
+    ---------------------
+    */
+
+
+    .learn-more-link {
+        align-items: flex-start;
     }
 }
