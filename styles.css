@@ -373,22 +373,26 @@ MEDIA QUERIES
         flex-direction: row;
         width: 100%;
         align-items: center;
+        height: 37.5;
     }
 
     .brand-transformation {
         width: 50%;
         order: 1;
-        padding: 9.875rem 6.875rem 9.875rem 10.313rem;
+        padding: 0 6.875rem 0 10.313rem;
     }
 
     .stand-out {
+        width: 50%;
         order: 2;
-        padding: 9.875rem 10.313rem 9.875rem 6.875rem;
+        padding: 0 10.313rem 0 6.875rem;
     }
 
     .brand-transformation,
     .stand-out {
-        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
     }
 
     .cherry-and-orange-sections{
