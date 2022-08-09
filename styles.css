@@ -117,15 +117,14 @@ MOBILE MAIN LAYOUT
 }
 
 footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 4.5rem 0;
+    background-color: #90D4C6;
 }
 
 .footer-container {
-    background-color: #90D4C6;
     width: 23.438rem;
     display: flex;
+    margin: 0 auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -324,7 +323,6 @@ MOBILE ICONS/LOGOS/IMGS
 }
 
 .footer-logo {
-    margin-top: 4rem;
     filter: brightness(0) saturate(100%) invert(37%) sepia(7%) saturate(5381%) hue-rotate(119deg) brightness(90%) contrast(66%);
     width: 10.625rem;
     height: 2.063rem;
@@ -343,8 +341,6 @@ MOBILE ICONS/LOGOS/IMGS
     width: 10.25rem;
     display: flex;
     justify-content: space-between;
-    align-items: space-between;
-    padding-bottom: 5rem;
 }
 
 /*
